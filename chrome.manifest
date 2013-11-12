@@ -1,0 +1,5 @@
+content   mail2redmine                content/
+skin      mail2redmine  classic/1.0   skin/
+locale    mail2redmine  en-US         locale/en-US/
+
+overlay chrome://messenger/content/messenger.xul  chrome://mail2redmine/content/messenger.xul

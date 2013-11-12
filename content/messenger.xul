@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://mail2redmine/skin/messenger.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://mail2redmine/locale/messenger.dtd">
+
+<overlay id="mail2redmine-messenger-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://mail2redmine/content/messenger.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="mail2redmine-string-bundle"
+      src="chrome://mail2redmine/locale/messenger.properties" />
+  </stringbundleset>
+
+  <vbox id="appmenuPrimaryPane">
+    <menu id="mail2redmine-hello-menu-2" label="&mail2redmine.hello.label;"
+      insertafter="appmenu_print">
+      <menupopup id="mail2redmine-hello-menu-popup-2">
+        <menuitem id="mail2redmine-hello-menu-item-2"
+          label="&mail2redmine.hello.label;"
+          oncommand="Mail2Redmine.MessengerOverlay.sayHello(event);" />
+      </menupopup>
+    </menu>
+  </vbox>
+</overlay>
