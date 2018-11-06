@@ -1,3 +1,6 @@
+NOT MAINTAINED, NOT WORKING
+===========================
+
 mail2redmine
 ============
 
